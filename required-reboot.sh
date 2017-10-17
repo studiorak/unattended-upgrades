@@ -4,7 +4,7 @@
 # managed by puppet 
 
 if [ -s /var/run/reboot-required.pkgs ] ; then 
-  echo OK
-else 
   echo KO
+else 
+  echo OK
 fi 
