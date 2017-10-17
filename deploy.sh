@@ -9,5 +9,5 @@ cp snpgroup$1 /etc/cron.d/snpgroup$1
 
 
 cp required-reboot.sh /usr/local/sbin/required_reboot.sh
-cp required-reboot.conf /etc/zabbix/zabbix_agentd.d/required-reboot.conf
+cp required-reboot.conf /etc/zabbix/zabbix_agentd.conf.d.local/required-reboot.conf
 /etc/init.d/zabbix-agent restart
