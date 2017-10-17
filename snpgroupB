@@ -1,0 +1,5 @@
+# /etc/cron.d/snpgroupB
+# managed by puppet 
+
+00 10 * * 4 root /bin/bash /usr/bin/unattended-upgrades -d 
+

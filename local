@@ -1,0 +1,7 @@
+// /etc/apt/apt.conf.d/local
+// Managed by puppet 
+
+Dpkg::Options {
+   "--force-confdef";
+   "--force-confold";
+}
